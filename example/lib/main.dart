@@ -22,7 +22,7 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    shareTrace.getInstallTrace().then((value){
+    shareTrace.getInstallTrace(defaultTimeout:10).then((value){
       if(value == null){
         print("getInstallTrace ==============> 数据为空");
       }else{

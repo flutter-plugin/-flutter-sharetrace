@@ -24,7 +24,7 @@ abstract class ShareTrace {
   Future<AppData> getCacheTraceData();
 
   ///
-  /// 注册唤醒监听
+  /// 注册唤醒监听,若使用此功能需要根据官方教程配置Scheme
   ///
   Stream<AppData> registerWakeupListener();
 }
