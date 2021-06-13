@@ -1,0 +1,28 @@
+name: flutter_sharetrace
+description: ShareTrace No invitation code, automatic acquisition of installation parameters.
+version: 1.0.0
+author: Scott
+homepage: https://www.sharetrace.com/docs/
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.plugin.sharetrace.flutter
+        pluginClass: ShareTracePlugin
+      ios:
+        pluginClass: ShareTracePlugin
