@@ -1,7 +1,6 @@
 name: flutter_sharetrace
 description: ShareTrace No invitation code, automatic acquisition of installation parameters.
 version: 1.0.0
-author: Scott
 homepage: https://www.sharetrace.com/docs/
 
 environment:

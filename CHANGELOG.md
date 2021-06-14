@@ -1,3 +1,3 @@
-## 0.0.1
+## 1.0.0
 
-* TODO: Describe initial release.
+* TODO: ShareTrace No invitation code, automatic acquisition of installation parameters.
